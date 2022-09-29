@@ -1,0 +1,2 @@
+version=4
+https://github.com/jtolds/gls/releases .*/v?(\d\S*)\.tar\.gz

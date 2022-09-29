@@ -1,0 +1,71 @@
+golang-github-jtolds-gls (4.20.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Remove myself from uploaders.
+
+ -- Alexandre Viau <aviau@debian.org>  Sun, 15 Sep 2019 18:10:58 -0400
+
+golang-github-jtolds-gls (4.20.0-1) unstable; urgency=medium
+
+  [ Michael Stapelberg ]
+  * Team upload.
+  * update debian/gitlab-ci.yml (using salsa.debian.org/go-team/ci/cmd/ci)
+
+  [ Dr. Tobias Quathamer ]
+  * New upstream version 4.20.0
+  * Update team name
+  * Switch to debhelper-compat and use v12
+    - Use HTTPS URL for d/copyright
+  * Do not use pristine-tar
+  * Switch to d/watch version 4
+  * Set Rules-Requires-Root: no
+  * Update Standards-Version to 4.4.0
+  * Remove golang-go from Depends of -dev package
+  * Build-Depend on golang-any instead of golang-go
+  * Add Breaks: golang-defaults (<< 2:1.12~1) for autopkgtest
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Tue, 13 Aug 2019 19:29:06 +0200
+
+golang-github-jtolds-gls (4.2.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Vcs-* urls: pkg-go-team -> go-team.
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 05 Feb 2018 23:42:46 -0500
+
+golang-github-jtolds-gls (4.2.1-3) unstable; urgency=medium
+
+  * point Vcs-* urls to salsa.d.o subproject
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 25 Jan 2018 16:23:30 -0500
+
+golang-github-jtolds-gls (4.2.1-2) unstable; urgency=medium
+
+  * Move to salsa.debian.org.
+  * Priority extra -> optional.
+
+ -- Alexandre Viau <aviau@debian.org>  Sat, 30 Dec 2017 03:08:20 -0500
+
+golang-github-jtolds-gls (4.2.1-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Bump Standards-Version to 4.0.0.
+  * Set Testsuite to autopkgtest-pkg-go.
+
+ -- Alexandre Viau <aviau@debian.org>  Wed, 02 Aug 2017 17:16:58 -0400
+
+golang-github-jtolds-gls (4.2.0-1) unstable; urgency=medium
+
+  * New upstream version
+  * Changed email to @debian.org
+  * Bumped Standards-Version to 3.9.7
+  * Switch to using XS-Go-Import-Path
+  * Replaced Vcs-Git by secure (https) url
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 21 Mar 2016 16:19:00 -0400
+
+golang-github-jtolds-gls (0.0~git20150401.0.9a4a02d-1) unstable; urgency=medium
+
+  * Initial release (Closes: #797826)
+
+ -- Alexandre Viau <alexandre@alexandreviau.net>  Wed, 02 Sep 2015 16:37:14 -0400
